@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+html {
+      font-size: 62.5%;
+      font-family: 'Rubik', sans-serif;
+      overflow-x: hidden;
+}
+
+
+/* body {
+     border: 2px solid red; 
+}  */
+
+
+/* HEADER SECTION STARTS */
+.header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 5rem 0.5rem 5rem;
+      background: rgba(246, 239, 239, 0.204);
+      /* border: 2px solid red; */
+}
+
+.header img {
+      height: 10rem;
+}
+
+.header .navbar ul {
+      display: flex;
+}
+
+.header .navbar ul li {
+      list-style: none;
+}
+
+.header .navbar ul li:hover {
+      transform: scale(1.1);
+}
+
+.header .navbar ul li a {
+      font-size: 1.7rem;
+      font-weight: 600;
+      color: black;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding-right: 4rem;
+      cursor: pointer;
+}
+
+/* HEADER SECTION ENDS */
+
+/* INTRO SECTION STARTS  */
+.intro {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.intro .intro1 {
+      font-size: 4rem;
+      font-weight: 500;
+      padding-left: 4rem;
+      line-height: 8rem;
+}
+
+.intro .intro1 #name {
+      font-size: 5.3rem;
+}
+
+.intro .intro1 #role {
+      font-size: 3rem;
+}
+
+.intro img {
+      height: 50rem;
+      padding-right: 2rem;
+}
+
+.intro .btni {
+      background: #846ADD;
+      color: white;
+      font-weight: 700;
+      font-size: 1.5rem;
+      padding: 1.2rem;
+      border-radius: 1.2rem;
+      border: none;
+      padding-top: -20rem;
+      cursor: pointer;
+}
+
+.intro .btni:hover {
+      transform: scale(1.1);
+}
+
+/* INTRO SECTION ENDS */
+
+/* ABOUT SECTION STARTS */
+.aboutsec {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5rem;
+      margin: 3rem 0rem;
+}
+
+.aboutsec img {
+      height: 39rem;
+      padding-right: 4rem;
+}
+
+.aboutsec .about1 #head {
+      font-size: 4rem;
+      font-weight: 600;
+}
+
+.aboutsec .about1 #para {
+      font-size: 1.8rem;
+      color: #797777;
+      margin-top: 2rem;
+      text-align: justify;
+}
+
+.aboutsec .about1 .btni {
+      background: #846ADD;
+      color: white;
+      font-weight: 700;
+      font-size: 1.5rem;
+      padding: 1.2rem;
+      border-radius: 1.2rem;
+      border: none;
+      margin-top: 2rem;
+      cursor: pointer;
+}
+
+.aboutsec .about1 .btni:hover {
+      transform: scale(1.1);
+}
+
+/* ABOUT SECTION ENDS */
+
+/* SKILLS SECTION STARTS */
+.skill {
+      margin: 3rem;
+      padding: 6rem 0;
+      width: 100%;
+}
+
+.skill p {
+      font-size: 5rem;
+      font-weight: 500;
+      text-align: center;
+      padding-bottom: 10rem;
+}
+
+.skill p:hover {
+      text-decoration: underline;
+}
+
+.skill .skillimg img {
+      height: 15rem;
+}
+
+.skill .skillimg img:hover {
+      transform: scale(1.1);
+}
+
+.skill .skillimg {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      cursor: pointer;
+      padding-right: 10rem;
+      flex-wrap: wrap;
+}
+
+/* SKILLS SECTION ENDS */
+
+
+/* PROJECTS SECTION STARTS */
+
+.projects {
+      /* background-color: black; */
+      /* margin: 3rem; */
+      padding: 6rem 0;
+      width: 100vw;
+}
+
+.projects img {
+      height: 35rem;
+}
+
+/* PROJECTS SECTION ENDS */
+
+
+/* CONTACT SECTION STARTS */
+
+.contactus {
+      margin-bottom: 8rem;
+      /* border: 2px solid red; */
+}
+
+.contactus #para1 {
+      font-size: 5rem;
+      font-weight: 500;
+      text-align: center;
+      margin: 5rem;
+}
+
+.contactus #para1:hover {
+      text-decoration: underline;
+}
+
+.cform {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+
+.cform img {
+      height: 35rem;
+}
+
+.cform img:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+}
+
+.cform .contactform {
+      display: flex;
+      flex-direction: column;
+}
+
+.cform .contactform p {
+      font-size: 3rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.cform .contactform input {
+      padding: .9rem 0rem .9rem 0.9rem;
+      border-radius: 1rem;
+      margin: 1rem 0rem;
+      font-size: 1.7rem;
+      font-weight: 600;
+      border-radius: 1.4rem;
+}
+
+.cform .contactform .btn {
+      background: #846ADD;
+      color: white;
+      font-weight: 700;
+      font-size: 1.5rem;
+      padding: 1.2rem;
+      border-radius: 1.2rem;
+      border: none;
+      margin-top: 1rem;
+      cursor: pointer;
+}
+
+.cform .contactform #message {
+      height: 10rem;
+}
+
+.cform .contactform .btn:hover {
+      color: black;
+}
+
+/* CONTACT SECTION ENDS */
+
+/* FOOTER SECTION STARTS */
+.footer {
+      background: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5rem;
+      width: 100%;
+      /* border: 2px solid red; */
+}
+
+.footer #para2 {
+      font-size: 2.5rem;
+      color: white;
+      font-weight: 500;
+      padding-bottom: 1rem;
+}
+
+.footer .footerimg img {
+      height: 5rem;
+      padding-bottom: 1rem;
+      padding-right: 2rem;
+}
+
+.footer .footerimg img:hover {
+      transform: scale(1.1);
+}
+
+.footer #copyright {
+      font-size: 1.5rem;
+      color: white;
+      font-weight: 400;
+}
+
+/* Hamburger for Mobile view */
+.mobile-nav-btn {
+      display: none;
+      background-color: transparent;
+      cursor: pointer;
+}
+
+.mobile-nav-icon {
+      height: 4rem;
+      width: 4rem;
+      color: black;
+}
+
+.mobile-nav-icon[name=close-outline] {
+      display: none;
+}
+
+
+
+/* Media Queries */
+
+/* For 980px  */
+@media (max-width: 980px) {
+      .mobile-nav-btn {
+            display: block;
+            z-index: 999;
+      }
+
+      .header {
+            position: relative;
+      }
+
+      .navbar {
+            display: none;
+            width: 100%;
+            height: 100vh;
+            background: rgb(215, 206, 206);
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            transform: translateX(100%);
+            transition: all 0.5s linear;
+            visibility: hidden;
+            opacity: 0;
+      }
+
+      .navbar ul {
+            flex-direction: column;
+            align-items: center;
+      }
+
+      .navbar ul li {
+            padding-bottom: 3rem;
+      }
+
+      .active .navbar {
+            transform: translateX(0);
+            opacity: 1;
+            visibility: visible;
+      }
+
+      .active .mobile-nav-btn .mobile-nav-icon[name=close-outline] {
+            display: block;
+      }
+
+      .active .mobile-nav-btn .mobile-nav-icon[name=menu-outline] {
+            display: none;
+      }
+}
+
+/* For 851px  */
+@media (max-width: 851px) {
+      .intro img {
+            height: 38rem;
+      }
+
+      .intro .intro1 #hello {
+            font-size: 2.8rem;
+      }
+
+      .intro .intro1 #name {
+            font-size: 3.7rem;
+      }
+
+      .intro .intro1 #role {
+            font-size: 2.2rem;
+      }
+
+      .aboutsec img {
+            height: 22rem;
+      }
+
+      .cform img {
+            height: 32rem;
+      }
+}
+
+
+/* For 707px  */
+@media (max-width: 707px) {
+      .aboutsec img {
+            height: 20rem;
+      }
+
+      .aboutsec .about1 #head {
+            font-size: 2rem;
+      }
+
+      .aboutsec .about1 #para {
+            font-size: 1.4rem;
+      }
+
+      .skill .skillimg img {
+            height: 13rem;
+      }
+
+      .skill p {
+            padding-bottom: 5rem;
+      }
+}
+
+
+/* For 768px  */
+
+@media (max-width: 768px) {
+      .aboutsec img {
+            height: 25rem;
+      }
+
+      .cform .contactform {
+            width: 52%;
+      }
+
+      .cform img {
+            height: 28rem;
+      }
+}
+
+/* For 637px  */
+
+@media (max-width: 637px) {
+      .intro img {
+            height: 28rem;
+      }
+
+      .intro .intro1 #hello {
+            font-size: 2.5rem;
+      }
+
+      .intro .intro1 #name {
+            font-size: 3rem;
+      }
+
+      .intro .intro1 #role {
+            font-size: 2rem;
+      }
+
+      .aboutsec img {
+            height: 17rem;
+      }
+
+      .skill .skillimg img {
+            height: 10rem;
+      }
+}
+
+@media (min-width:280px) and (max-width: 653px) {
+      .intro {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+      }
+
+      .intro img {
+            height: 20rem;
+      }
+
+      .intro .intro1 #hello {
+            font-size: 2.2rem;
+      }
+
+      .intro .intro1 #name {
+            font-size: 2rem;
+      }
+
+      .intro .intro1 #role {
+            font-size: 1.5rem;
+      }
+
+      .aboutsec {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2rem;
+            margin: 3rem 0rem;
+            flex-direction: column;
+      }
+
+      .aboutsec img {
+            height: 14rem;
+            padding-bottom: 1rem;
+      }
+
+      .aboutsec .about1 .btni {
+            font-size: 1.3rem;
+      }
+
+      .skill {
+            margin: 0%;
+      }
+
+      .skill #sk {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .skill #sk p {
+            font-size: 3rem;
+      }
+
+      .skill .skillimg {
+            margin-left: 1rem; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+      }
+
+      .skill .skillimg img {
+            height: 8rem;
+            /* padding: 0rem 0rem 1rem 1rem; */
+      }
+
+      .contactus #para1 {
+            font-size: 3rem;
+            font-weight: 500;
+            text-align: center;
+            margin: 5rem;
+      }
+
+      .cform {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+      }
+
+      .cform img {
+            height: 20rem;
+            margin-bottom: 2.5rem;
+      }
+
+      .cform .contactform p {
+            font-size: 2rem;
+      }
+
+      .cform .contactform {
+            width: 80%;
+      }
+
+      .footer #para2 {
+            font-size: 2rem;
+      }
+
+      .footer .footerimg img {
+            height: 4rem;
+            padding-bottom: 1rem;
+            padding-right: 2rem;
+        }
+        .footer {
+            background: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 3rem;
+            width: 100%;
+            height: 40vh;
+        }
+}

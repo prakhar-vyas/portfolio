@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header section starts -->
+    <header class="header">
+      <span><img src="./images/img1.png" alt="" /></span>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <!-- <li><a href="#project">Projects</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-nav-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Intro section starts -->
+
+    <div class="intro">
+      <div class="intro1">
+        <p id="hello">HELLO..................</p>
+        <p id="name">I AM PRAKHAR VYAS</p>
+        <p id="role">WEB DEVELOPER</p>
+        <a href="#contact"> <button class="btni">HIRE ME</button></a>
+        <a href="./Resume1.pdf" download
+          ><button class="btni">GET CV</button></a
+        >
+      </div>
+      <img src="./images/Screenshot (92).png" alt="" />
+    </div>
+
+    <!-- INTRO SECTION ENDS  -->
+
+    <!--  ABOUT SECTION STARTS -->
+    <div id="about">
+      <div class="aboutsec">
+        <img src="./images/img3.png" alt="" />
+        <div class="about1">
+          <p id="head">
+            LET'S <br />
+            INTRODUCE ABOUT <br />
+            MYSELF
+          </p>
+          <p id="para">
+            Hi, I am 4th year Engineering student person and I have keen
+            interest in designing and developing websites.
+          </p>
+          <p id="para">
+            Also I love to do spend my time on reading blogs related to website
+            developmnent and wordpress development. I am a enthusiastic person
+            who is dedicated towards his work.
+          </p>
+          <a href="./Resume1.pdf" download
+            ><button class="btni">DOWNLOAD CV</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!--  ABOUT SECTION ENDS -->
+
+    <!-- SKILLS SECTION STARTS -->
+    <div id="skills">
+      <div class="skill">
+        <div id="sk"><p>SKILLS</p></div>
+        <div class="skillimg">
+          <img src="./images/svg1.png" alt="" />
+          <img src="./images/svg2.png" alt="" />
+          <img src="./images/svg3.png" alt="" />
+          <img src="./images/svg4.png" alt="" />
+          <img src="./images/svg5.png" alt="" />
+          <img src="./images/svg6.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- SKILL SECTION ENDS -->
+
+    <!-- PROJECTS SECTIONS STARTS-->
+    <!-- <div id="project">
+         <div class="projects">
+          <img src="./images/calculator.png" alt="">
+          <img src="./images/weatherapp.png" alt="">
+          <img  src="./images/ecommerce.png" alt="">
+         </div>
+</div> -->
+    <!-- CONTACT SECTION STARTS -->
+    <div id="contact">
+      <div class="contactus">
+        <p id="para1">CONTACT</p>
+        <div class="cform">
+          <img src="./images/img-01.png" alt="" />
+          <div class="contactform">
+            <p>Get in touch</p>
+            <input
+              type="text"
+              name="name"
+              id="name1"
+              placeholder="Name"
+              size="45"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email id"
+              size="45"
+              required
+            />
+            <input
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Message..."
+            />
+            <button id="button" class="btn" type="submit" onclick="sendEmail(), clean()">
+              Send
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT SECTIONS ENDS -->
+
+    <!-- FOOTER SECTION STARTS  -->
+    <div class="footer">
+      <p id="para2">Connect With Me</p>
+      <div class="footerimg">
+        <a href="https://www.facebook.com/prakhar.vyas.503" target="_blank"
+          ><img src="./images/facebook.png" alt=""
+        /></a>
+        <a href="https://www.linkedin.com/in/prakhar-vyas/" target="_blank"
+          ><img src="./images/linkedin.png" alt=""
+        /></a>
+        <a href="https://www.instagram.com/prakhar_vyas_/" target="_blank"
+          ><img src="./images/instagram.png" alt=""
+        /></a>
+      </div>
+      <p id="copyright">Copyright &copy 2022</p>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
